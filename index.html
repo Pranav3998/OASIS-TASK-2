@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>My Portfolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="resume.pdf" download class="cta-button">Download Resume</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <img src="c:\Users\prana\Downloads\pranav.jpg" alt="My Profile Picture" class="profile-pic">
+                <div class="about-text">
+                    <p>Hi! I'm <strong>ANKEM PRANAV</strong>, a passionate web developer with skills in HTML, CSS, JavaScript, and Java. I love creating beautiful and functional websites that provide great user experiences.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="project-grid">
+                <div class="project">
+                    <h3>Flight Reservation System (Java)</h3>
+                    <img src="c:\Users\prana\Downloads\FLIGHT.jpeg" alt="Flight Reservation System" class="project-image">
+                    <p>A comprehensive flight reservation system built using Java. It allows users to book, cancel, and view flights easily.</p>
+                </div>
+                <div class="project">
+                    <h3>Power BI Project</h3>
+                    <img src="c:\Users\prana\Downloads\POWERBI.jpeg" alt="Power BI Project" class="project-image">
+                    <p>A data visualization project using Power BI to analyze and present data insights effectively.</p>
+                </div>
+                <div class="project">
+                    <h3>Full Stack Development Project</h3>
+                    <img src="c:\Users\prana\Downloads\FULLSTACK.jpeg" alt="Full Stack Development Project" class="project-image">
+                    <p>A full-stack application developed using Node.js, Express, and MongoDB for the backend, and React for the frontend.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form class="contact-form">
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required placeholder="name">
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required placeholder="your.email@example.com">
+                </div>
+                <div>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required placeholder="Your message here..."></textarea>
+                </div>
+                <button type="submit" class="cta-button">Submit</button>
+            </form>
+            <div class="contact-info">
+                <p>Email: <a href="mailto:pranavankem@gmail.com">pranavankem@gmail.com</a></p>
+                <p>Phone: (123) 456-7890</p>
+            </div>
+            <p>If you’d like to get in touch, feel free to reach out via email or social media.</p>
+            <div class="social-media">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
